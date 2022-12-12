@@ -1,0 +1,7 @@
+version: '3'
+services:
+  test-docker:
+    build: ../test-docker
+    image: cepe-test-docker-api:test
+    ports:
+         - 8081:8081
